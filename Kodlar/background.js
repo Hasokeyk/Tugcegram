@@ -7,10 +7,12 @@
 
 //example of using a message handler from the inject scripts
 chrome.extension.onMessage.addListener(function(request, sender, sendResponse){
-	chrome.pageAction.show(sender.tab.id);
-	sendResponse();
-
-	chrome.tabs.executeScript({
-		file: 'js/jquery.min.js'
-	});
+	//chrome.pageAction.show(sender.tab.id);
+	//sendResponse();
+//
+	//console.log(2,window._sharedData)
+	//
+	//chrome.tabs.executeScript({
+	//	file: 'js/jquery.min.js'
+	//});
 });

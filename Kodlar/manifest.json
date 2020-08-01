@@ -1,48 +1,46 @@
 {
-  "name": "Tuğçegram",
-  "version": "1.0.2",
-  "manifest_version": 2,
-  "description": "Tuğçe'nin instagram takipten çıkma şeysi",
-  "homepage_url": "https://tugceden.com",
-  "icons": {
-    "16": "icons/icon16.png",
-    "48": "icons/icon48.png",
-    "128": "icons/icon128.png"
-  },
-  "default_locale": "en",
-  "background": {
-    "scripts": [
-      "src/bg/background.js"
-    ],
-    "persistent": true
-  },
-  "page_action": {
-    "default_icon": "icons/icon19.png",
-    "default_title": "page action demo",
-    "default_popup": "src/page_action/page_action.html"
-  },
-  "permissions": [
-    "activeTab",
-    "tabs",
-    "https://www.instagram.com/*"
-  ],
-  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
-  "content_scripts": [
-    {
-      "matches": [
-        "https://www.instagram.com/*"
-      ],
-      "css": [
-        "src/inject/inject.css"
-      ]
+    "name":"Tuğçegram",
+    "version":"1.0.2",
+    "manifest_version":2,
+    "description":"Tuğçe'nin instagram takipten çıkma şeysi",
+    "homepage_url":"https://tugceden.com",
+    "icons":{
+        "16":"icons/icon16.png",
+        "48":"icons/icon48.png",
+        "128":"icons/icon128.png"
     },
-    {
-      "matches": [
+    "default_locale":"en",
+    "background":{
+        "scripts":[
+            "background.js"
+        ],
+        "persistent":false
+    },
+    "permissions":[
+        "activeTab",
+        "tabs",
         "https://www.instagram.com/*"
-      ],
-      "js": [
-        "src/inject/inject.js"
-      ]
-    }
-  ]
+    ],
+    "content_security_policy":"script-src 'self' 'unsafe-eval'; object-src 'self'",
+    "content_scripts":[
+        {
+            "matches":[
+                "https://www.instagram.com/*"
+            ],
+            "css":[
+                "css/tugcegram.css"
+            ]
+        },
+        {
+            "matches":[
+                "https://www.instagram.com/*"
+            ],
+            "js":[
+                "js/jquery.min.js",
+                "js/variables.js",
+                "js/functions.js",
+                "js/tugcegram.js"
+            ]
+        }
+    ]
 }
