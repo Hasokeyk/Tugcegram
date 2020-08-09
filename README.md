@@ -12,4 +12,5 @@ Instagram'ın web sitesini bozmadan eklenti ile gelen ek özellikleri rahatlıkl
 ## Ekran Görüntüleri
 
 ![Tugcegram](https://hasokeyk.github.io/Tugcegram/screenshots/tugcegram.png)
-![Otomatik Takipten Çıkma](https://hasokeyk.github.io/Tugcegram/screenshots/Takipten otomatik çıkma.png)
+
+![Otomatik Takipten Çıkma](https://hasokeyk.github.io/Tugcegram/screenshots/Takipten%20otomatik%20%C3%A7%C4%B1kma.png)
