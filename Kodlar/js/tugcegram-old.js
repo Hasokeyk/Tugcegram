@@ -146,6 +146,7 @@ chrome.extension.sendMessage({}, function(response){
                                 }
                             })
                             localStorage.setItem(globalUserID+'-following', JSON.stringify(newFollowing));
+                            
                         }else{
                             alert('Unfollow Edemiyor. Lütfen biraz bekle')
                         }

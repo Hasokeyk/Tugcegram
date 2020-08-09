@@ -2,7 +2,8 @@
 Kız arkadaşım (Tuğçe ♥) için yazdığım chrome eklentisi.
 
 ## Ne işe yarıyor?
-Instagrama ek özellikler getiriyor
+Instagram'ın web sitesini bozmadan eklenti ile gelen ek özellikleri rahatlıkla kullanabilirsiniz.
 
 ## Özellikler
-1- Senin takip ettiğin ama seni takip etmeyenleri listeleme
+1- Sizin takip ettiğiniz ama sizi takip etmeyen hesapları listeleme.
+2- Sizi takip etmeyenleri otomatik olarak takipten çıkma.
